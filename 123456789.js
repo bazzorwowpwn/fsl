@@ -1,7 +1,7 @@
 // BRUNA RUTA NUMMER 1
 			
 // Byta rubrik
-var x = "Svenska fåglar 13388888";
+var x = "rubrik1";
 // byta underrubrik/text
 var y = "brödtext1";
 // byta länk namn
