@@ -1,15 +1,161 @@
+<!DOCTYPE html>
 <html>
-  <title>The webiste is working</title>
-  <head>
-    <style>
-    body {
-    background-color:green;
-    color:white;
-    text-align:center;
+<head>
+
+<style>
+.column {
+	height:auto;
+    width:750px;
+    margin-bottom:40px;
+    padding:0px;
+    border: 7px solid #4F2F0D;
+    margin-top:40px;
+}
+</style>
+</head>
+<body>
+    
+<div id="1" class="column">
+    <div id="inside_box" style="max-width:700px; margin: auto;">
+        <p style="font-size:20px; margin-top:20px;" id="1.1"><b>Error 301 - fel ogiltig variabel</b></p>
+        <p id="1.2"><b></b></p>
+        <p><a href="https://drive.google.com/file/d/0B5Rwd6EImwzDc2F0ejE2M3AxaE11eUU5ck90N2Z6anBDMWww/view?usp=sharing" id="1.3" target="_blank"></a></p>
+    </div>
+</div>
+    
+<div id="2" class="column">
+    <div id="inside_box" style="max-width:700px; margin: auto;">
+        <p style="font-size:20px; margin-top:20px;" id="2.1"><b>Error 302 - fel ogiltig variabel</b></p>
+        <p id="2.2"><b></b></p>
+        <p><a href="https://drive.google.com/file/d/0B5Rwd6EImwzDc2F0ejE2M3AxaE11eUU5ck90N2Z6anBDMWww/view?usp=sharing" id="2.3"></a></p>
+    </div>
+</div>
+    
+<div id="3" class="column">
+    <div id="inside_box" style="max-width:700px; margin: auto;">
+        <p style="font-size:20px; margin-top:20px;" id="3.1"><b>Error 303 - fel ogiltig variabel</b></p>
+        <p id="3.2"><b></b></p>
+        <p><a href="https://drive.google.com/file/d/0B5Rwd6EImwzDc2F0ejE2M3AxaE11eUU5ck90N2Z6anBDMWww/view?usp=sharing" id="3.3"></a></p>
+    </div>
+</div>
+    
+<div id="4" class="column">
+    <div id="inside_box" style="max-width:700px; margin: auto;">
+        <p style="font-size:20px; margin-top:20px;" id="4.1"><b>Error 304 - fel ogiltig variabel</b></p>
+        <p id="4.2"><b></b></p>
+        <p><a href="https://drive.google.com/file/d/0B5Rwd6EImwzDc2F0ejE2M3AxaE11eUU5ck90N2Z6anBDMWww/view?usp=sharing" id="4.3"></a></p>
+    </div>    
+</div>
+
+<script>
+// BRUNA RUTA NUMMER 1
+			
+// Byta rubrik
+var x = "rubrik1";
+// byta underrubrik/text
+var y = "brödtext1";
+// byta länk namn
+var z = "lankText1";
+// byta länk adress, ändra endast webadressen innom citattäcknena, ändra endast webadressen innom citattäcknena
+var yourElement = document.getElementById('1.3');
+yourElement.setAttribute('href', 'https://www.google.com'); 
+    
+
+document.getElementById("1.1").innerHTML = x;
+document.getElementById("1.2").innerHTML = y;
+document.getElementById("1.3").innerHTML = z;
+</script>
+
+<script>
+// BRUNA RUTA NUMMER 2
+			
+// Byta rubrik
+var a = "rubrik2";
+// byta under rubrik/text
+var b = "brödtext2";
+// byta länk namn
+var c = "lankText2";
+// byta länk adress, ändra endast webadressen innom citattäcknena, ändra endast webadressen innom citattäcknena
+var yourElement2 = document.getElementById('2.3');
+yourElement2.setAttribute('href', 'https://www.facebook.com');
+    
+    
+document.getElementById("2.1").innerHTML = a;
+document.getElementById("2.2").innerHTML = b;
+document.getElementById("2.3").innerHTML = c;
+</script>    
+
+<script>
+// BRUNA RUTA NUMMER 3
+			
+// Byta rubrik
+var d = "rubrik3";
+// byta under rubrik/text
+var e = "brödtext3";
+// byta länk namn
+var f = "lankText3";
+// byta länk adress, ändra endast webadressen innom citattäcknena, ändra endast webadressen innom citattäcknena
+var yourElement3 = document.getElementById('3.3');
+yourElement3.setAttribute('href', 'https://www.youtube.com');
+    
+    
+document.getElementById("3.1").innerHTML = d;
+document.getElementById("3.2").innerHTML = e;
+document.getElementById("3.3").innerHTML = f;
+</script>    
+ 
+<script>
+// BRUNA RUTA NUMMER 4
+
+// Glöm inte att endast byta variablen innom parantes "rubrik" och behåll paranteserna.   
+    
+// Byta rubrik
+var g = "rubrik44";
+// byta under rubrik/text
+var h = "brödtext4";
+// byta länk namn
+var i = "lankText4";
+// byta länk adress, ändra endast webadressen innom citattäcknena, ändra endast webadressen innom citattäcknena 
+var yourElement4 = document.getElementById('4.3');
+yourElement4.setAttribute('href', 'https://www.9gag.com');
+    
+    
+document.getElementById("4.1").innerHTML = g;
+document.getElementById("4.2").innerHTML = h;
+document.getElementById("4.3").innerHTML = i;
+</script>    
+    
+<script>
+    // Antal bruna ruter som visas, ändra variablen innom parantes "x" och behåll parenteserna
+    var antal = "4"
+    var displayAntal;
+    if (antal == 1) {
+        document.getElementById("1").style.opacity = "1";
+        document.getElementById("2").style.opacity = "0";
+        document.getElementById("3").style.opacity = "0";
+        document.getElementById("4").style.opacity = "0";
+    } else if (antal == 2) {
+        document.getElementById("1").style.opacity = "1";
+        document.getElementById("2").style.opacity = "1";
+        document.getElementById("3").style.opacity = "0";
+        document.getElementById("4").style.opacity = "0";
+    } else if (antal == 3) {
+        document.getElementById("1").style.opacity = "1";
+        document.getElementById("2").style.opacity = "1";
+        document.getElementById("3").style.opacity = "1";
+        document.getElementById("4").style.opacity = "0";
+    } else if (antal == 4) {
+        document.getElementById("1").style.opacity = "1";
+        document.getElementById("2").style.opacity = "1";
+        document.getElementById("3").style.opacity = "1";
+        document.getElementById("4").style.opacity = "1";
+    }else {
+        document.getElementById("1").style.opacity = "1";
+        document.getElementById("2").style.opacity = "1";
+        document.getElementById("3").style.opacity = "1";
+        document.getElementById("4").style.opacity = "1";
     }
-    </style>
-  </head>
-  <body>
-    <h1>The body works</h1>
-  </body>
+</script>
+
+</body>
 </html>
