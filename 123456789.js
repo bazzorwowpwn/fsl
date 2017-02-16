@@ -1,7 +1,7 @@
 // BRUNA RUTA NUMMER 1
 			
 // Byta rubrik
-var x = "rubrik11";
+var x = "rubrik02-16";
 // byta underrubrik/text
 var y = "brödtext1";
 // byta länk namn
