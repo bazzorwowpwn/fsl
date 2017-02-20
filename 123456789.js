@@ -6,7 +6,7 @@ var x = "rubrik02-16";
 var y = "brödtext1";
 // byta länk namn
 var z = "lankText1";
-// byta länk adress, ändra endast webadressen innom citattäcknena, ändra endast webadressen innom citattäcknena
+// byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement = document.getElementById('1.3');
 yourElement.setAttribute('href', 'https://www.google.com'); 
     
@@ -23,7 +23,7 @@ var a = "rubrik2";
 var b = "brödtext2";
 // byta länk namn
 var c = "lankText2";
-// byta länk adress, ändra endast webadressen innom citattäcknena, ändra endast webadressen innom citattäcknena
+// byta länk adress, ändra endast webadressen innom citattäcknena,
 var yourElement2 = document.getElementById('2.3');
 yourElement2.setAttribute('href', 'https://www.facebook.com');
     
@@ -40,7 +40,7 @@ var d = "rubrik3";
 var e = "brödtext3";
 // byta länk namn
 var f = "lankText3";
-// byta länk adress, ändra endast webadressen innom citattäcknena, ändra endast webadressen innom citattäcknena
+// byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement3 = document.getElementById('3.3');
 yourElement3.setAttribute('href', 'https://www.youtube.com');
     
@@ -59,7 +59,7 @@ var g = "rubrik44";
 var h = "brödtext4";
 // byta länk namn
 var i = "lankText4";
-// byta länk adress, ändra endast webadressen innom citattäcknena, ändra endast webadressen innom citattäcknena 
+// byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement4 = document.getElementById('4.3');
 yourElement4.setAttribute('href', 'https://www.9gag.com');
     
