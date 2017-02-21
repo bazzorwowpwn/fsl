@@ -1,11 +1,11 @@
 // BRUNA RUTA NUMMER 1
 			
 // Byta rubrik
-var x = "rubrik02-16";
+var x = "Kycklinar springer snabbt";
 // byta underrubrik/text
-var y = "brödtext1";
+var y = "Detta raporter Stina Lindgren från Stenholmens dagblad";
 // byta länk namn
-var z = "lankText1";
+var z = "Läs hela artiklen på Stenholmens hemsidan";
 // byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement = document.getElementById('1.3');
 yourElement.setAttribute('href', 'https://www.google.com'); 
