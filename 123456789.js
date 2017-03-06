@@ -1,7 +1,7 @@
 // BRUNA RUTA NUMMER 1
 			
 // Byta rubrik
-var x = "Kycklinar springer snavbbt";
+var x = "Kycklinar springer snavbbbt";
 // byta underrubrik/text
 var y = "Detta raporter Stina Lindgren från Stenholmens dagblad";
 // byta länk namn
