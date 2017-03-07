@@ -3,7 +3,7 @@
 // Byta rubrik
 var x = "Kallelse och dagordning, årsmöte FSL, den 25 mars 2017";
 // byta underrubrik/text
-var y = "Föreningen Svenskt Landskapsskydd kallar härmed till årsmöte lördag den 25 mars kl. 13. Sedvanliga årsmötesförhandlingar enligt stadgarna.<br> Plats: Uppsala Konsert & Kongress, Rum K1, Plan 3, Vaksala Torg, Uppsala. (Gångavstånd från Uppsala Central, gå under spåren. därefter 200 meter till vänster.)";
+var y = "Föreningen Svenskt Landskapsskydd kallar härmed till årsmöte lördag den 25 mars kl. 13. Sedvanliga årsmötesförhandlingar enligt stadgarna.<br><br> Plats: Uppsala Konsert & Kongress, Rum K1, Plan 3, Vaksala Torg, Uppsala. (Gångavstånd från Uppsala Central, gå under spåren. därefter 200 meter till vänster.)";
 // byta länk namn
 var z = "Läs mer";
 // byta länk adress, ändra endast webadressen innom citattäcknena
