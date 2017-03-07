@@ -1,11 +1,11 @@
-// BRUNA RUTA NUMMER 1
+
 			
 // Byta rubrik
-var x = "Kycklinar springer snabbt";
+var x = "Kallelse och dagordning, årsmöte FSL, den 25 mars 2017";
 // byta underrubrik/text
-var y = "Detta raporter Stina Lindgren från Stenholmens dagblad";
+var y = "Föreningen Svenskt Landskapsskydd kallar härmed till årsmöte lördag den 25 mars kl. 13. Sedvaliga årsmötesförhandlingar enligt stadgarna. Plats: Uppsala Konsert & Kongress, Rum K1, Plan 3, Vaksala Torg, Uppsala. (Gångavstånd från Uppsala Central, gå under spåren. därefter 200 meter till vänster.)";
 // byta länk namn
-var z = "Läs hela artiklen på Stenholmens hemsidan";
+var z = "Läs mer";
 // byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement = document.getElementById('1.3');
 yourElement.setAttribute('href', 'https://www.google.com'); 
@@ -69,7 +69,7 @@ document.getElementById("4.2").innerHTML = h;
 document.getElementById("4.3").innerHTML = i;
 
     // Antal bruna ruter som visas, ändra variablen innom parantes "x" och behåll parenteserna
-    var antal = "3"
+    var antal = "1"
     var displayAntal;
     if (antal == 1) {
         document.getElementById("1").style.opacity = "1";
