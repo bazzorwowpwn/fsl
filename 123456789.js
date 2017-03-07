@@ -8,7 +8,7 @@ var y = "Föreningen Svenskt Landskapsskydd kallar härmed till årsmöte lörda
 var z = "Läs mer";
 // byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement = document.getElementById('1.3');
-yourElement.setAttribute('href', 'http://landskapsskydd.se/pic/Kallelse%20och%20dagordning%20arsmote%20FSL%202017.docx'); 
+yourElement.setAttribute('href', 'http://landskapsskydd.se/artikel/mote'); 
     
 
 document.getElementById("1.1").innerHTML = x;
