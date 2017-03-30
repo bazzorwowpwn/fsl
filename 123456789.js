@@ -8,7 +8,7 @@ var y = "Årsmötet hölls liksom förra året i Uppsala Konsert & Kongress<br><
 var z = "Läs verksamhetsberättelsen och årsmötesprotokollet";
 // byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement = document.getElementById('1.3');
-yourElement.setAttribute('href', ''); 
+yourElement.setAttribute('href', 'http://landskapsskydd.se/artikel/101'); 
     
 
 document.getElementById("1.1").innerHTML = x;
