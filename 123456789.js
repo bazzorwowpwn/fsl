@@ -3,7 +3,7 @@
 // Byta rubrik
 var x = "Den 25 mars 2017 höll FSL årsmöte i Uppsala";
 // byta underrubrik/text
-var y = "Årsmötet hölls liksom förra året i Uppsala Konsert & Kongress<br><br>Föreningens verksamhetsberättelse för 2016 redovisades";
+var y = "Årsmötet hölls liksom förra året i Uppsala Konsert & Kongress<br><br>Föreningens verksamhetsberättelse för 2016 redovisades<br><br>En styrelse för 2017 valdes, varvid tre nya namn tillkom.";
 // byta länk namn
 var z = "Läs verksamhetsberättelsen och årsmötesprotokollet";
 // byta länk adress, ändra endast webadressen innom citattäcknena
