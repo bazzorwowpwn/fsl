@@ -1,14 +1,14 @@
 // Bruna ruta nummer 1
 			
 // Byta rubrik
-var x = "Kallelse och dagordning, årsmöte FSL, den 25 mars 2017";
+var x = "Den 25 mars 2017 höll FSL årsmöte i Uppsala";
 // byta underrubrik/text
-var y = "Föreningen Svenskt Landskapsskydd kallar härmed till årsmöte lördag den 25 mars kl. 13. Sedvanliga årsmötesförhandlingar enligt stadgarna.<br><br> Plats: Uppsala Konsert & Kongress, Rum K1, Plan 3, Vaksala Torg, Uppsala. (Gångavstånd från Uppsala Central, gå under spåren. därefter 200 meter till vänster.)";
+var y = "Årsmötet hölls liksom förra året i Uppsala Konsert & Kongress<br><br>Föreningens verksamhetsberättelse för 2016 redovisades";
 // byta länk namn
-var z = "Läs mer";
+var z = "Läs verksamhetsberättelsen och årsmötesprotokollet";
 // byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement = document.getElementById('1.3');
-yourElement.setAttribute('href', 'http://landskapsskydd.se/artikel/mote'); 
+yourElement.setAttribute('href', ''); 
     
 
 document.getElementById("1.1").innerHTML = x;
