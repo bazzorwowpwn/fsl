@@ -25,7 +25,7 @@ var b = "På branschorganisationen Svensk Vindenergis hemsida ligger en artikel 
 var c = "läs mer";
 // byta länk adress, ändra endast webadressen innom citattäcknena,
 var yourElement2 = document.getElementById('2.3');
-yourElement2.setAttribute('href', '');
+yourElement2.setAttribute('href', 'http://landskapsskydd.se/artikel/JH101');
     
     
 document.getElementById("2.1").innerHTML = a;
