@@ -1,4 +1,4 @@
-// Bruna ruta nummer 1
+// Bruna ruta nummmer 1
 			
 // Byta rubrik
 var x = "Den 25 mars 2017 höll FSL årsmöte i Uppsala";
@@ -18,14 +18,14 @@ document.getElementById("1.3").innerHTML = z;
 // BRUNA RUTA NUMMER 2
 			
 // Byta rubrik
-var a = "rubrik2";
+var a = "Retroaktiv barmhärtighet i stället för utveckling?";
 // byta under rubrik/text
-var b = "brödtext2";
+var b = "På branschorganisationen Svensk Vindenergis hemsida ligger en artikel med rubriken /"Låt inte de som gått i spetsen ta kostnaderna/";
 // byta länk namn
-var c = "lankText2";
+var c = "läs mer";
 // byta länk adress, ändra endast webadressen innom citattäcknena,
 var yourElement2 = document.getElementById('2.3');
-yourElement2.setAttribute('href', 'https://www.facebook.com');
+yourElement2.setAttribute('href', '');
     
     
 document.getElementById("2.1").innerHTML = a;
@@ -69,7 +69,7 @@ document.getElementById("4.2").innerHTML = h;
 document.getElementById("4.3").innerHTML = i;
 
     // Antal bruna ruter som visas, ändra variablen innom parantes "x" och behåll parenteserna
-    var antal = "1"
+    var antal = "2"
     var displayAntal;
     if (antal == 1) {
         document.getElementById("1").style.opacity = "1";
