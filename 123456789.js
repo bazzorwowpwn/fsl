@@ -20,7 +20,7 @@ document.getElementById("1.3").innerHTML = z;
 // Byta rubrik
 var a = "Retroaktiv barmhärtighet i stället för utveckling?";
 // byta under rubrik/text
-var b = "På branschorganisationen Svensk Vindenergis hemsida ligger en artikel med rubriken Låt inte de som gått i spetsen ta kostnaderna.";
+var b = "På branschorganisationen Svensk Vindenergis hemsida ligger en artikel med rubriken /"Låt inte de som gått i spetsen ta kostnaderna./"";
 // byta länk namn
 var c = "läs mer";
 // byta länk adress, ändra endast webadressen innom citattäcknena,
