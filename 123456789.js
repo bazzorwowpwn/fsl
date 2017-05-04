@@ -69,7 +69,7 @@ document.getElementById("4.2").innerHTML = h;
 document.getElementById("4.3").innerHTML = i;
 
     // Antal bruna ruter som visas, ändra variablen innom parantes "x" och behåll parenteserna
-    var antal = "2"
+    var antal = "3"
     var displayAntal;
     if (antal == 1) {
         document.getElementById("1").style.opacity = "1";
