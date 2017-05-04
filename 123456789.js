@@ -18,9 +18,9 @@ document.getElementById("1.3").innerHTML = z;
 // BRUNA RUTA NUMMER 2
 			
 // Byta rubrik
-var a = "";
+var a = "Träningstext till förstasidan";
 // byta under rubrik/text
-var b = "";
+var b = "Träningstext 2";
 // byta länk namn
 var c = "<i> läs mer </i>";
 // byta länk adress, ändra endast webadressen innom citattäcknena,
