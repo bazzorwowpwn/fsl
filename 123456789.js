@@ -18,14 +18,14 @@ document.getElementById("1.3").innerHTML = z;
 // BRUNA RUTA NUMMER 2
 			
 // Byta rubrik
-var a = "Retroaktiv barmhärtighet i stället för utveckling?";
+var a = "Träningstext till förstasidan";
 // byta under rubrik/text
-var b = "På branschorganisationen Svensk Vindenergis hemsida ligger en artikel med rubriken<br><br>Låt inte de som gått i spetsen ta kostnaderna.";
+var b = "Träningstext 1";
 // byta länk namn
-var c = "läs mer";
+var c = "<k> läs mer </k>";
 // byta länk adress, ändra endast webadressen innom citattäcknena,
 var yourElement2 = document.getElementById('2.3');
-yourElement2.setAttribute('href', 'http://landskapsskydd.se/artikel/JH101');
+yourElement2.setAttribute('href', 'http://www.landskapsskydd.se/artikel/JH102');
     
     
 document.getElementById("2.1").innerHTML = a;
