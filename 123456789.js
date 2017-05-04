@@ -18,14 +18,14 @@ document.getElementById("1.3").innerHTML = z;
 // BRUNA RUTA NUMMER 2
 			
 // Byta rubrik
-var a = "Träningstext till förstasidan";
+var a = "";
 // byta under rubrik/text
-var b = "Träningstext 1";
+var b = "";
 // byta länk namn
 var c = "<i> läs mer </i>";
 // byta länk adress, ändra endast webadressen innom citattäcknena,
 var yourElement2 = document.getElementById('2.3');
-yourElement2.setAttribute('href', 'http://www.landskapsskydd.se/artikel/JH102');
+yourElement2.setAttribute('href', 'http://www.landskapsskydd.se/artikel/JH103');
     
     
 document.getElementById("2.1").innerHTML = a;
