@@ -22,7 +22,7 @@ var a = "Träningstext till förstasidan";
 // byta under rubrik/text
 var b = "Träningstext 1";
 // byta länk namn
-var c = "<k> läs mer </k>";
+var c = "<i> läs mer </i>";
 // byta länk adress, ändra endast webadressen innom citattäcknena,
 var yourElement2 = document.getElementById('2.3');
 yourElement2.setAttribute('href', 'http://www.landskapsskydd.se/artikel/JH102');
