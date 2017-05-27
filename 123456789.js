@@ -1,14 +1,15 @@
 // Bruna ruta nummmer 1
 			
 // Byta rubrik
-var x = "";
+var x = "FSL kritiserar Naturvårdsverkets hantering av vindkraftbuller";
 // byta underrubrik/text
-var y = "";
+var y = "Hanteringen av ljudfrågor vid prövning av vindkraft är bristfällig, anvisningar för hur beräkningar ska utföras är bristfälliga, samt redovisning av andel bullerstörda är felaktig. FSL menar att Naturvårdsverket skyndsamt bör göra en översyn av vägledningen för vindkraftbuller.
+";
 // byta länk namn
-var z = "";
+var z = "<i> Läs mer </i>";
 // byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement = document.getElementById('1.3');
-yourElement.setAttribute('href', 'http://landskapsskydd.se/artikel/101'); 
+yourElement.setAttribute('href', 'http://landskapsskydd.se/artikel/104'); 
     
 
 document.getElementById("1.1").innerHTML = x;
