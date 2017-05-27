@@ -35,11 +35,11 @@ document.getElementById("2.3").innerHTML = c;
 // BRUNA RUTA NUMMER 3
 			
 // Byta rubrik
-var d = "Träningstext till innesidan";
+var d = "";
 // byta under rubrik/text
-var e = "Träningstext till förstasidan";
+var e = "";
 // byta länk namn
-var f = "<i>Läs mer</i>";
+var f = "";
 // byta länk adress, ändra endast webadressen innom citattäcknena
 var yourElement3 = document.getElementById('3.3');
 yourElement3.setAttribute('href', 'https://www.landskapsskydd.se/artikel/JH102');
