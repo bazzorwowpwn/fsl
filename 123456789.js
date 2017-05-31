@@ -1,9 +1,9 @@
 // Bruna ruta nummer 1
   			
   // Byta rubrik
-  var x = "Kallelse och dagordning, årsmöte FSL, den 25 mars 2017";
-  var y = "Föreningen Svenskt Landskapsskydd kallar härmed till årsmöte lörda"
-  var z = "Läs mer";
+  var x = "";
+  var y = ""
+  var z = "";
   // byta länk adress, ändra endast webadressen innom citattäcknena
   var yourElement = document.getElementById('1.3');
   yourElement.setAttribute('href', 'https://www.google.com'); 
