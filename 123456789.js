@@ -2,7 +2,7 @@
   			
   // Byta rubrik
   var x = "";
-  var y = ""
+  var y = "<><"
   var z = "";
   // byta länk adress, ändra endast webadressen innom citattäcknena
   var yourElement = document.getElementById('1.3');
