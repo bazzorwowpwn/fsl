@@ -1,12 +1,12 @@
 // Bruna ruta nummer 1
   			
   // Byta rubrik
-  var x = "";
-  var y = "<><"
-  var z = "";
+  var x = "FSL kritiserar Naturvårdsverkets hantering av vindkraftbuller";
+  var y = " Hanteringen av ljudfrågor vid prövning av vindkraft är bristfällig, anvisningar för hur beräkningar ska utföras är bristfälliga, samt redovisning av andel bullerstörda är felaktig.<br><br> FSL menar att Naturvårdsverket skyndsamt bör göra en översyn av vägledningen för vindkraftbuller. (2017-05-22)"
+  var z = "<i>Läs mer </i>";
   // byta länk adress, ändra endast webadressen innom citattäcknena
   var yourElement = document.getElementById('1.3');
-  yourElement.setAttribute('href', 'https://www.google.com'); 
+  yourElement.setAttribute('href', 'http://www.landskapsskydd.se/pic/Pressmeddelande%20vindkraftbuller%20.pdf'); 
   yourElement.setAttribute('href', 'http://landskapsskydd.se/pic/Kallelse%20och%20dagordning%20arsmote%20FSL%202017.docx'); 
       
   
