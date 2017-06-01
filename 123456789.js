@@ -7,8 +7,7 @@
   // byta länk adress, ändra endast webadressen innom citattäcknena
   var yourElement = document.getElementById('1.3');
   yourElement.setAttribute('href', 'http://www.landskapsskydd.se/pic/Pressmeddelande%20vindkraftbuller%20.pdf'); 
-  yourElement.setAttribute('href', 'http://landskapsskydd.se/pic/Kallelse%20och%20dagordning%20arsmote%20FSL%202017.docx'); 
-      
+        
   
   document.getElementById("1.1").innerHTML = x;
  document.getElementById("1.2").innerHTML = y;
